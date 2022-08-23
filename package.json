@@ -1,0 +1,46 @@
+{
+    "name": "hapi-catalog-api",
+    "version": "1.0.0",
+    "description": "Catalog API - serve catalog data from ES",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon --exec babel-node src/server.js",
+        "build": "babel src --out-dir dist --copy-files",
+        "serve": "node dist/server.js"
+    },
+    "author": "Gabriel Cioropina <gabriel.cioropina@altex.ro>",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+        "@babel/polyfill": "^7.4.4",
+        "@hapi/boom": "^7.4.2",
+        "@hapi/catbox-redis": "^5.0.2",
+        "@hapi/glue": "^6.1.0",
+        "@hapi/hapi": "^18.4.0",
+        "@hapi/inert": "^5.2.0",
+        "@hapi/joi": "^15.0.3",
+        "@hapi/vision": "^5.5.2",
+        "apisauce": "^1.0.2",
+        "confidence": "^4.0.1",
+        "core-js": "^3.1.4",
+        "es-client-wrapper": "git+ssh://git@gitlab.altex.ro:plug/hapi-esWrapper.git#master",
+        "hapi-alerto": "git+ssh://git@gitlab.altex.ro:plug/hapi-alerto.git#release/1.0.0",
+        "hapi-internal-bridge": "git+ssh://git@gitlab.altex.ro:plug/hapi-internal-bridge.git",
+        "hapi-pino": "^6.0.0",
+        "hapi-swagger": "^10.1.2",
+        "locutus": "^2.0.9",
+        "lodash": "^4.17.11",
+        "request": "^2.88.0",
+        "underscore": "^1.8.3"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "@babel/core": "^7.4.4",
+        "@babel/node": "^7.2.2",
+        "@babel/preset-env": "^7.4.4",
+        "@babel/register": "^7.4.4",
+        "eslint": "^4.19.1",
+        "eslint-config-hapi": "^11.1.0",
+        "eslint-plugin-hapi": "^4.1.0"
+    }
+}

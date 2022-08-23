@@ -1,0 +1,15 @@
+version: "3"
+services:
+    app_catalog:
+        container_name: app_catalog
+        restart: always
+        build: .
+        volumes:
+            - ./../:/var/www/api/
+        ports:
+            - "8080:4000"
+        links:
+            - redis_catalog
+    redis_catalog:
+        container_name: redis_catalog
+        image: redis

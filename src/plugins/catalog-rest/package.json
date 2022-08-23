@@ -1,0 +1,11 @@
+{
+  "name": "catalog-rest",
+  "version": "1.0.0",
+  "description": "REST API for catalog entities",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Cioropina <gabriel.cioropina@altex.ro>",
+  "license": "ISC"
+}
