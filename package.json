@@ -27,7 +27,7 @@
         "hapi-alerto": "git+ssh://git@gitlab.altex.ro:plug/hapi-alerto.git#release/1.0.0",
         "hapi-internal-bridge": "git+ssh://git@gitlab.altex.ro:plug/hapi-internal-bridge.git",
         "hapi-pino": "^6.0.0",
-        "hapi-swagger": "^10.1.2",
+        "hapi-swagger": "^14.2.5",
         "locutus": "^2.0.9",
         "lodash": "^4.17.11",
         "request": "^2.88.0",
