@@ -20,7 +20,7 @@
         "@hapi/inert": "^5.2.0",
         "@hapi/joi": "^15.0.3",
         "@hapi/vision": "^5.5.2",
-        "apisauce": "^1.0.2",
+        "apisauce": "^3.0.1",
         "confidence": "^4.0.1",
         "core-js": "^3.1.4",
         "es-client-wrapper": "git+ssh://git@gitlab.altex.ro:plug/hapi-esWrapper.git#master",
